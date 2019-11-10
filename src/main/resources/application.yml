@@ -1,0 +1,23 @@
+server:
+  port: 80
+
+#spring:
+#  data:
+#    mongodb:
+#      username: weiliao
+#      host: 49.235.164.57
+#      port: 27017
+#      password: weiliao
+#      database: weiliao
+
+#fastdfs:
+#  tracker_servers: 49.235.164.57:22122
+#  connect_timeout_in_seconds: 60
+#  network_timeout_in_seconds: 600
+#  charset: UTF-8
+
+spring:
+  thymeleaf:
+    prefix: classpath:/template/
+    mode: HTML
+    suffix: .html
